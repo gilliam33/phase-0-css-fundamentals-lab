@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, header, figcaption {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+
+P.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+
+div {
+  float: left;
+  width: 25%;
+  background-color: red;
+}
+
+featured-property ~ p {
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+}
